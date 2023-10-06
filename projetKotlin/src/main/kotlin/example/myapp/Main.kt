@@ -3,8 +3,6 @@ package example.myapp
 
 // create a class
 fun buildAquarium() {
-val myAquarium = Aquarium()
-    myAquarium.printSize()
 // myAquarium.printSize()
 // myAquarium.height =60
 // myAquarium.printSize()
@@ -33,8 +31,13 @@ val myAquarium = Aquarium()
 // aquarium6.printSize()
 // aquarium6.volume = 70
 // aquarium6.printSize()
-    val aquarium6 = Aquarium(length = 25, width = 25, height = 40)
-    aquarium6.printSize()
+  //  val aquarium6 = Aquarium(length = 25, width = 25, height = 40)
+    //aquarium6.printSize()
+
+    val myAquarium = Aquarium(width = 25, length = 25, height = 40)
+    myAquarium.printSize()
+    val myTower = TowerTank(diameter = 25, height = 40)
+    myTower.printSize()
 }
 //
 fun main() {
